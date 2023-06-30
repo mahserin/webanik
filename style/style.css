@@ -1,0 +1,270 @@
+@font-face {
+	font-family: IRANSansX;
+	font-style: normal;
+	font-weight: 100;
+	src: url('../fonts/woff/IRANSansX-thin.woff') format('woff'),   
+	url('../fonts/woff2/IRANSansX-thin.woff2') format('woff2');		
+}
+
+@font-face {
+	font-family: IRANSansX;
+	font-style: normal;
+	font-weight: 200;
+	src: url('../fonts/woff/IRANSansX-UltraLight.woff') format('woff'),   
+	url('../fonts/woff2/IRANSansX-UltraLight.woff2') format('woff2');	
+}
+
+@font-face {
+	font-family: IRANSansX;
+	font-style: normal;
+	font-weight: 300;
+	src: url('../fonts/woff/IRANSansX-light.woff') format('woff'),   
+	url('../fonts/woff2/IRANSansX-light.woff2') format('woff2');		 
+}
+
+@font-face {
+	font-family: IRANSansX;
+	font-style: normal;
+	font-weight: 500;
+	src: url('../fonts/woff/IRANSansX-medium.woff') format('woff'),   
+	url('../fonts/woff2/IRANSansX-medium.woff2') format('woff2');		 
+}
+
+@font-face {
+	font-family: IRANSansX;
+	font-style: normal;
+	font-weight: 600;
+	src: url('../fonts/woff/IRANSansX-demibold.woff') format('woff'),   
+	url('../fonts/woff2/IRANSansX-demibold.woff2') format('woff2');	 
+}
+
+@font-face {
+	font-family: IRANSansX;
+	font-style: normal;
+	font-weight: 800;
+	src: url('../fonts/woff/IRANSansX-extrabold.woff') format('woff'),   
+	url('../fonts/woff2/IRANSansX-extrabold.woff2') format('woff2');		 
+}
+
+@font-face {
+	font-family: IRANSansX;
+	font-style: normal;
+	font-weight: 900;
+	src: url('../fonts/woff/IRANSansX-black.woff') format('woff'),   
+	url('../fonts/woff2/IRANSansX-black.woff2') format('woff2');		 
+}
+
+@font-face {
+	font-family: IRANSansX;
+	font-style: normal;
+	font-weight: bold;
+	src: url('../fonts/woff/IRANSansX-bold.woff') format('woff'),   
+	url('../fonts/woff2/IRANSansX-bold.woff2') format('woff2');	 
+}
+
+@font-face {
+	font-family: IRANSansX;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/woff/IRANSansX-regular.woff') format('woff'),   
+	url('../fonts/woff2/IRANSansX-regular.woff2') format('woff2');	
+}
+@font-face {
+    font-family: 'peyda';
+    src: url('../fonts/peyda-black.ttf') format('truetype');
+}
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: IRANSansX;
+    font-weight: normal
+    
+    
+}
+.header{
+    background-color: rgba(0,0,0,.6);
+    background-blend-mode: color;
+    background-image: url(../pic/7-Cybersecurity-Tips-For-Your-Staff-Working-Remotely.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    text-align: center;
+    
+    
+}
+.header ul{
+    background-color: white;
+    height: 100px;
+    width: 800px;
+    margin: auto;
+    border-radius: 0 0 50px 50px;
+    position: fixed;
+    right: 50%;
+	transform: translate(50% , 0);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 8px 50px;
+    z-index: 100;
+    
+    
+}
+.header li{
+    list-style: none;
+    display: inline-block;
+	
+    
+    
+
+}
+.header a{
+    text-decoration: none;
+    color: #000020;
+    font-family: inherit;
+    display: inherit;
+    padding: 5px;
+    margin: .5vw;
+    margin-top: 30px;
+    position: sticky;
+    font-weight: 700;
+    font-size: 25px;
+    
+}
+.header a:hover{
+    color: orange;
+    position: sticky;
+}
+.header  i{
+    font-size: 3vh;
+    color: #000;
+    position:
+	z-index: inherit;
+    display: inherit;
+    width: 20px;
+    height: 20px;   
+}
+.header i:hover{
+    color: orange;
+}
+.header img{
+    width: 100px;
+    position: absolute;
+    left: 5vw;
+    top: 5vh;
+    
+}
+.header h1{
+    padding-top: 40vh;
+    font-family: peyda;
+    font-size: 50pt;
+    color: aliceblue;
+    text-shadow: 0 0 10px , 0 0 100px black , 0 0 100px black , 0 0 100px black , 0 0 100px black;
+    
+}
+.header span{
+    color: orange;
+    font-family: inherit
+}
+.header p{
+    width: 400px;
+    height:60px;
+    margin: auto;
+    color: #fff;
+    font-family: inherit;
+    font-size: 20pt;
+    margin-top: 70pt;
+    padding: 5pt;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 100px;
+    border: 1px solid rgba(255,255,255,.3);
+}
+#graphic h2{
+   padding-top: 200px;
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+#graphic{
+    text-align: center;
+}
+#plans {
+    list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+    
+}
+.plan{
+    width: 420px;
+    box-shadow: rgba(149, 157, 165, 0.7) 0px 8px 24px , rgba(50, 50, 93, 0.25) 0px 2px 5px -1px , rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 40px;
+    margin: 100px 10px;
+	height: 700px;
+    
+}
+.plan .pic{
+    width: 200px;
+    margin-top: 50px
+}
+.plan h3{
+    font-size: 25px;
+    font-weight: 500;
+    
+}
+.plan p{
+    margin: 30px;
+    text-align: justify;
+	vertical-align: middle;
+	font-size: 24px;
+    
+}
+.last{
+	margin: 0 5px
+}
+#z123{
+	font-size: 22px;
+}
+.but1{
+	margin-top: 30px;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 15px;
+	background: linear-gradient(to bottom,#E5E5E5,#B8B8B8 );
+	color: #808080;
+	box-shadow: 0px 15px 25px -10px #808080 ;
+	
+}
+.but1:hover{
+	background: linear-gradient(to bottom,#B8B8B8,#808080 );
+	color: #000
+}
+.but2{
+	margin-top: 30px;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 15px;
+	background: linear-gradient(to bottom,#7BC7FF,#0092FF );
+	color: #255C84;
+	box-shadow: 0px 15px 25px -10px #0092ff ;
+	
+}
+.but2:hover{
+	background: linear-gradient(to bottom,#0092FF,#0061AA );
+	color: #000
+}
+.but3{
+	margin-top: 30px;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 15px;
+	background: linear-gradient(to bottom,#F1A3FF,#E243FF );
+	color: #773184;
+	box-shadow: 0px 15px 25px -10px #D700FF;
+	
+}
+.but3:hover{
+	background: linear-gradient(to bottom,#E243FF,#B800D9 );
+	color: #000
+}
